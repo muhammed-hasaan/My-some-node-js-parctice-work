@@ -1,0 +1,63 @@
+ //--Firstly run the command in cmd--//
+
+ 1. npm init
+ 2. npm i express morgan mongoose bcrypt jsonwebtoken 
+
+ * than make a file names as index.js js you will make the file name of your choice
+ * than make a express app with this code 
+ 
+ //--code--//
+
+ const express = require('express');
+ const app = express()
+
+ // and than
+
+
+ * if you want to run the server so listen to the port like this
+
+ app.listen(80 , (req , res)=>{
+ console.log("app is running on port 80");
+ } 
+ )
+
+ * than connect mongo db 
+  so import mongoose
+
+const mongoose = require('mongoose')
+
+  and telled you in top how to import with require keyword
+
+  than type some code
+
+  mongoose.connect("mongodb+srv://test:test@cluster0.7clrshb.mongodb.net/").then(()=>{
+    console.log("mongo db connected")
+}).catch((err) => 
+console.log(err)
+)
+
+now your mongdb is connected successfully
+
+now make a schema
+
+create a folder named as schema and than make a file in it name as you want
+
+like if you are making for user so make a file names as user.js and if 
+you are making for blog so make a file named as blog.js 
+
+
+** very important thing **
+
+All the file ind=side the schema folder are called mode 
+
+i have given you the example of file maked in schema folder name as user.js and blog.js
+
+these files are called as user model and blog model
+
+joi is use for validation in node js it is the js library
+
+
+
+
+
+
