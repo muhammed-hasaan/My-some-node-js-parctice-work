@@ -1,0 +1,15 @@
+.ullist  {
+color: green;
+display: flex;
+text-decoration: none;
+list-style: none;
+column-gap: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
